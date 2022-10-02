@@ -1,0 +1,152 @@
+.contact {
+    background-color: #191919;
+}
+
+h1.hire__text {
+    font-size: 60px;
+}
+
+p.hire__text {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(29, 29, 36, .75);
+    font-weight: 400;
+}
+
+img.contact__img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+input.contact {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin: 20px 0px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: .1px;
+    background: none;
+    border: 2px solid hsla(0, 0%, 100%, .2);
+
+}
+
+textarea#message {
+    height: 120px;
+    background: none;
+    padding: 0 20px;
+    width: 100%;
+    line-height: 46px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 2px solid hsla(0, 0%, 100%, .2);
+}
+
+button.btn.contact.pointer {
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+#contact-details .details p {
+    color:#fff;
+
+}
+
+#contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details {
+    width: 40%;
+}
+
+#contact-details .details span {
+    font-size: 12px;
+}
+
+#contact-details .details h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+
+}
+
+#contact-details .details h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-details .details li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details i {
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-details .details p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+#contact-details .map {
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-p1 p {
+    color: #fff;
+}
+.colred{color: #F9004D;}
+.colred p{
+    color: #fff;
+}
+@media (max-width:477px) {
+    #contact-details {
+        display: block;
+    }
+
+    #contact-details {
+        flex-direction: column;
+
+    }
+
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details .map {
+        width: 100%;
+    }
+}
