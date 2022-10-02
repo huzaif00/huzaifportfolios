@@ -109,22 +109,22 @@ function Service() {
             </div>
             <div className="container5">
             <h5 className="text-sm  text-white-600 dark:text-white">
-                            JAVA : 90%
+                            JAVA : 80%
                         </h5>
                 <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
                     <div
                         className="bg-red-600 h-2.5 rounded-full dark:bg-red-500"
-                        style={{ width: "90%" }}
+                        style={{ width: "80%" }}
                     />
                 
                 </div>
                 <h5 className="text-sm  text-white-600 dark:text-white">
-                            Python : 92%
+                            Python : 82%
                         </h5>
                 <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
                     <div
                         className="bg-red-600 h-2.5 rounded-full dark:bg-red-500"
-                        style={{ width: "92%" }}
+                        style={{ width: "82%" }}
                     />
                 
                 </div>
