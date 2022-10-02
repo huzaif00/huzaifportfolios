@@ -3,6 +3,8 @@ import "./home.css";
 import logo from "./img/logo.png";
 import {useEffect,useRef} from "react";
 import Typical from 'react-typical'
+import { Link } from 'react-scroll'
+
 function Home() {
   // fixed Header
   window.addEventListener("scroll", function () {
@@ -23,22 +25,28 @@ function Home() {
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
-              <a href="#Home">
-                <li className="nav__items mx__15">Home</li>
-              </a>
-              <a href="#About">
-                <li className="nav__items mx__15">About</li>
-              </a>
-              <a href="#Service">
-                <li className="nav__items mx__15">Skill</li>
-              </a>
-              <a href="#Portfolio">
-                <li className="nav__items mx__15">Portfolio</li>
-              </a>
+            <li className="nav__items mx__15">
+              <Link to="Home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+                </li>
+                <li className="nav__items mx__15">
+              <Link to="About" spy={true} smooth={true} offset={-100} duration={500}> About</Link>
+               </li>
+              
+             
+                <li className="nav__items mx__15">
+                <Link to="Service" spy={true} smooth={true} offset={-100} duration={500}>Skill</Link>
+                </li>
+              
+                <li className="nav__items mx__15">
+                <Link to="Portfolio" spy={true} smooth={true} offset={-100} duration={500}>Portfolio</Link>
+                </li>
+              
             
-              <a href="#Contact">
-                <li className="nav__items mx__15">Contact</li>
-              </a>
+              
+                <li className="nav__items mx__15">
+                <Link to="Contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
+                </li>
+              
             </ul>
           </div>
           {/* Toogle Menu */}
@@ -61,20 +69,20 @@ function Home() {
           <div className="sideNavbar">
               <ul className="sidebar d__flex">
               <li className="sideNavbar">
-              <a href="#Home">Home</a>
+              <Link to="Home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
             </li>
             <li className="sideNavbar">
-              <a href="#About">About</a>
+            <Link to="About" spy={true} smooth={true} offset={-100} duration={500}> About</Link>
             </li>
             <li className="sideNavbar">
-              <a href="#Service">Skills</a>
+            <Link to="Service" spy={true} smooth={true} offset={-100} duration={500}>Skill</Link>
             </li>
             <li className="sideNavbar">
-              <a href="#Portfolio">Portfolio</a>
+            <Link to="Portfolio" spy={true} smooth={true} offset={-100} duration={500}>Portfolio</Link>
             </li>
           
             <li className="sideNavbar">
-              <a href="#Contact">Contact</a>
+            <Link to="Contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
             </li>
               </ul>
           </div>
