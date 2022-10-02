@@ -30,7 +30,7 @@ function Home() {
                 <li className="nav__items mx__15">About</li>
               </a>
               <a href="#Service">
-                <li className="nav__items mx__15">Skills</li>
+                <li className="nav__items mx__15">Skill</li>
               </a>
               <a href="#Portfolio">
                 <li className="nav__items mx__15">Portfolio</li>
