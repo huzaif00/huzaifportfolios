@@ -139,7 +139,7 @@ function Service() {
                 
                 </div>
                 <h5 className="text-sm  text-white-600 dark:text-white">
-                            HTML : 90%
+                            HTML : 80%
                         </h5>
                 <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
                     <div
