@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/huzaifportfolios/static/css/main.84497488.css",
-    "main.js": "/huzaifportfolios/static/js/main.3b7170cb.js",
+    "main.js": "/huzaifportfolios/static/js/main.090341a9.js",
     "static/js/787.1ed0c42c.chunk.js": "/huzaifportfolios/static/js/787.1ed0c42c.chunk.js",
     "static/media/about.jpg": "/huzaifportfolios/static/media/about.133976a7f0173261d267.jpg",
     "static/media/p2.jpg": "/huzaifportfolios/static/media/p2.679a41b25a19d002a89c.jpg",
@@ -10,11 +10,11 @@
     "static/media/about-9.jpg": "/huzaifportfolios/static/media/about-9.24eb96f8e6097d2556e9.jpg",
     "index.html": "/huzaifportfolios/index.html",
     "main.84497488.css.map": "/huzaifportfolios/static/css/main.84497488.css.map",
-    "main.3b7170cb.js.map": "/huzaifportfolios/static/js/main.3b7170cb.js.map",
+    "main.090341a9.js.map": "/huzaifportfolios/static/js/main.090341a9.js.map",
     "787.1ed0c42c.chunk.js.map": "/huzaifportfolios/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84497488.css",
-    "static/js/main.3b7170cb.js"
+    "static/js/main.090341a9.js"
   ]
 }
