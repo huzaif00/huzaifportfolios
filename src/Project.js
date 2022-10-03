@@ -145,7 +145,7 @@ function Project() {
 
                     </div>
                     <div className="project__meta absolute">
-                        <h5 className="project__text">Delhi metro Map</h5>
+                        <h5 className="project__text">Delhi Metro Map</h5>
                         <h4 className="project__text">This project is based on Java and Data Structure And Algorithm,this project is used for finding shortest route between stations.</h4>
                        
                     <div className="buttons">
