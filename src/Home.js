@@ -26,25 +26,25 @@ function Home() {
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
             <li className="nav__items mx__15">
-              <Link to="Home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+              <Link style={{cursor: "pointer"}} to="Home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
                 </li>
                 <li className="nav__items mx__15">
-              <Link to="About" spy={true} smooth={true} offset={-100} duration={500}> About</Link>
+              <Link style={{cursor: "pointer"}} to="About" spy={true} smooth={true} offset={-100} duration={500}> About</Link>
                </li>
               
              
                 <li className="nav__items mx__15">
-                <Link to="Service" spy={true} smooth={true} offset={-100} duration={500}>Skill</Link>
+                <Link style={{cursor: "pointer"}} to="Service" spy={true} smooth={true} offset={-100} duration={500}>Skill</Link>
                 </li>
               
                 <li className="nav__items mx__15">
-                <Link to="Portfolio" spy={true} smooth={true} offset={-100} duration={500}>Portfolio</Link>
+                <Link style={{cursor: "pointer"}} to="Portfolio" spy={true} smooth={true} offset={-100} duration={500}>Portfolio</Link>
                 </li>
               
             
               
                 <li className="nav__items mx__15">
-                <Link to="Contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
+                <Link style={{cursor: "pointer"}} to="Contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
                 </li>
               
             </ul>
@@ -68,21 +68,21 @@ function Home() {
           {show ?(
           <div className="sideNavbar">
               <ul className="sidebar d__flex">
-              <li className="sideNavbar">
-              <Link to="Home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+              <li  className="sideNavbar">
+              <Link onClick={() => setShow(!show)} style={{cursor: "pointer"}} to="Home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
             </li>
             <li className="sideNavbar">
-            <Link to="About" spy={true} smooth={true} offset={-100} duration={500}> About</Link>
+            <Link onClick={() => setShow(!show)} style={{cursor: "pointer"}} to="About" spy={true} smooth={true} offset={-100} duration={500}> About</Link>
             </li>
             <li className="sideNavbar">
-            <Link to="Service" spy={true} smooth={true} offset={-100} duration={500}>Skill</Link>
+            <Link onClick={() => setShow(!show)} style={{cursor: "pointer"}} to="Service" spy={true} smooth={true} offset={-100} duration={500}>Skill</Link>
             </li>
             <li className="sideNavbar">
-            <Link to="Portfolio" spy={true} smooth={true} offset={-100} duration={500}>Portfolio</Link>
+            <Link onClick={() => setShow(!show)} style={{cursor: "pointer"}} to="Portfolio" spy={true} smooth={true} offset={-100} duration={500}>Portfolio</Link>
             </li>
           
             <li className="sideNavbar">
-            <Link to="Contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
+            <Link onClick={() => setShow(!show)} style={{cursor: "pointer"}} to="Contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
             </li>
               </ul>
           </div>
